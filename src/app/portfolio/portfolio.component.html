@@ -1,0 +1,12 @@
+<div class="container text-center my-5">
+  <h2 class="portfolio-title">Portfolio</h2>
+
+  <div class="row g-4">
+    @for (item of projects; track $index) {
+      <div class="col-md-4" id="card">
+        <div [class]="$index%2==0? 'portfolio-card': 'portfolio-card dark'">{{item}}</div>
+    </div>
+    }
+    @empty {}
+  </div>
+</div>

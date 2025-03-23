@@ -1,0 +1,36 @@
+.footer {
+  background-color: #14110F;
+  color: white;
+  padding: 20px 0;
+}
+
+.footer h5 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.footer i {
+  margin-right: 8px;
+}
+
+.footer a {
+  text-decoration: none;
+  color : white;
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: #bbb;
+}
+
+.btn-outline-light {
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: bold;
+}

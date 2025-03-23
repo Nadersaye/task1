@@ -1,0 +1,50 @@
+/* General Page Styling */
+.body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20 px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-color: #f8f8f8;
+}
+
+/* About Section */
+.about-section {
+  text-align: left;
+  max-width: 600px;
+  padding :20px;
+}
+
+/* About Title */
+.about-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); /* Adds shadow effect */
+}
+
+/* About Text */
+.about-text {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Resume Button */
+.resume-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.resume-btn:hover {
+  background-color: #555;
+}

@@ -1,0 +1,18 @@
+<body>
+
+  <div class="container skills-container text-center">
+      <h2>Skills</h2>
+      <p>As a passionate Flutter Developer and Full-Stack .NET Engineer, I architect seamless digital experiences by bridging cutting-edge mobile interfaces with robust enterprise systems. With expertise in Dart and C#, I craft performant cross-platform apps using Flutter while engineering scalable backend solutions with .NET Core, ASP.NET, and cloud-native architectures. My work spans the full development lifecycle, from pixel-perfect UI/UX design to deploying containerized microservices on Azure, ensuring end-to-end solutions that drive business impact.</p>
+
+      <div class="row mt-4">
+          <div class="col-md-12 text-start">
+            @for (skill of skills; track $index) {
+              <div class="mb-2">{{skill.name}}</div>
+              <div class="progress mb-3" role="progressbar" aria-label="Basic example" [attr.aria-valuetext]="skill.level" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar" [style.width.%]="skill.level"></div>
+              </div>
+            }
+          </div>
+      </div>
+  </div>
+</body>
